@@ -20,10 +20,10 @@ function NewMeetupPage() {
   return (
     <>
       <Head>
-        <title>React Meetups </title>
+        <title>Add new meetsup</title>
         <meta
           name="description"
-          content="Browse a huge list of higly active react meetup"
+          content="Add your own meetup and create amazing networking"
         />
       </Head>
       <NewMeetupForm onAddMeetup={addMeetupHandler} />;
